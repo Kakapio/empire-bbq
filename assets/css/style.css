@@ -10,9 +10,20 @@
 --main-color: #cd5e5e;
 --accent-color: #d98585;
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Barbaro-Roman';
+  src:url('font/Barbaro-Roman.ttf.woff') format('woff'),
+      url('font/Barbaro-Roman.ttf.svg#Barbaro-Roman') format('svg'),
+      url('font/Barbaro-Roman.ttf.eot'),
+      url('font/Barbaro-Roman.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
-  --main-color: #cd5e5e;
-  --accent-color: #d98585;
+  --main-color: #fc1f1f;
+  --accent-color: #ff5050;
 }
 
 body {
@@ -31,7 +42,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
+  font-family: 'Barbaro-Roman';
+  letter-spacing: 3px;
+}
+
+h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
 
