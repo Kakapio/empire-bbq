@@ -470,6 +470,7 @@ h3, h4, h5, h6 {
   line-height: 1;
   color: white;
   border: 2px solid var(--main-color);
+  margin-right: 10px;
 }
 #hero .btn-menu:hover, #hero .btn-book:hover {
   background: var(--main-color);
