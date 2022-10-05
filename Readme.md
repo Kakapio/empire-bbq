@@ -1,4 +1,4 @@
-Built off Bootstrap.
+Website for a high-end Korean steakhouse in Springfield, Illinois. Currently in use. Built off Bootstrap.
 
 https://roshanpatel.dev/empire-bbq/
 
